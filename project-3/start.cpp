@@ -41,7 +41,7 @@ int main() {
         startTests();
     }
     else if (choice == 2) {
-        //ciphers();
+        ciphers();
     }
     
     return 0;
