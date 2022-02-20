@@ -96,7 +96,11 @@ void testCharToInt(){
 }
 
 void testShiftAlphaCharacter(){
-    //implement
+    cout << "Now testing function charToInt()." << endl;
+    cout << "Expected: d, actual: " << shiftAlphaCharacter('b', 2) << endl;
+    cout << "Expected: C, actual: " << shiftAlphaCharacter('X', 5) << endl;
+    cout << "Expected: x, actual: " << shiftAlphaCharacter('z', -2) << endl;
+    cout << "Expected: V, actual: " << shiftAlphaCharacter('X', 50) << endl;
 }
 
 void testCaesarCipher(){

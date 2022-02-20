@@ -20,7 +20,7 @@
 
 using namespace std;
 
-int main(){
+int ciphers(){
     string cypherChoice;
     cout << "Choose a cipher (Caesar, Vigenere, or Polybius): ";
     cin >> cypherChoice;
